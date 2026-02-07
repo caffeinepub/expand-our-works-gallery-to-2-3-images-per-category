@@ -1,2 +1,3 @@
-# expand-our-works-gallery-to-2-3-images-per-category
-Exported from Caffeine project: Update WhatsApp/phone number 6374350379 to 6374942194
+## 
+
+To run app build and run docker image: `docker build -t app . docker run -it --network host app`

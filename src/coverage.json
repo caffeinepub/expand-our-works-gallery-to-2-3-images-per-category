@@ -1,0 +1,40 @@
+{
+  "kind": "coverage_report",
+  "version": "1.0",
+  "generatedAt": "2026-02-07T08:13:20.666Z",
+  "sources": {
+    "buildRequest": true,
+    "implementationPlan": true
+  },
+  "requirements": {
+    "total": 1,
+    "implemented": 1,
+    "items": [
+      {
+        "id": "REQ-1",
+        "summary": "Replace the phone/WhatsApp number 6374350379 with 6374942194 across the frontend, including the shared phone number selector list and any direct tel: links in the Contact section, ensuring both the underlying dial/wa.me number and the human-formatted display text are updated consistently (country code +91).",
+        "status": "implemented",
+        "plannedFiles": [
+          "frontend/src/components/PhoneNumberSelector.tsx",
+          "frontend/src/components/sections/ContactSection.tsx"
+        ],
+        "matchedFiles": [
+          "frontend/src/components/PhoneNumberSelector.tsx",
+          "frontend/src/components/sections/ContactSection.tsx"
+        ]
+      }
+    ]
+  },
+  "changedFiles": [
+    "build-request.json",
+    "feature_evidence.json",
+    "frontend-file-summaries.txt",
+    "frontend-implementation-plan.json",
+    "frontend/src/components/PhoneNumberSelector.tsx",
+    "frontend/src/components/sections/ContactSection.tsx",
+    "project_state.json",
+    "scratch/component-selection.json",
+    "spec.md",
+    "spec_vs_diff_report.json"
+  ]
+}

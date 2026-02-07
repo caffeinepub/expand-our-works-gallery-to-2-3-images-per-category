@@ -1,0 +1,24 @@
+{
+  "kind": "feature_evidence_report",
+  "features": [
+    {
+      "featureId": "feature-replace-the-phone-whatsapp-number-6374350379-with-6374942194-across-the-frontend-including-the-shared-phone-number-selector-list-and-any-direct-tel-links-in-the-contact-section-ensuring-both-the-underlying-dial-wa-me-number-and-the-human-formatted-display-text-are-updated-consistently-country-code-91",
+      "featureTitle": "Replace the phone/WhatsApp number 6374350379 with 6374942194 across the frontend, including the shared phone number selector list and any direct tel: links in the Contact section, ensuring both the underlying dial/wa.me number and the human-formatted display text are updated consistently (country code +91).",
+      "files": [
+        "frontend/src/components/PhoneNumberSelector.tsx",
+        "frontend/src/components/sections/ContactSection.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-1"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

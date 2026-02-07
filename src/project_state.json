@@ -1,0 +1,29 @@
+{
+  "schemaVersion": "1.0.0",
+  "projectStateVersion": 3,
+  "summary": "New project",
+  "architectural_notes": [],
+  "known_issues": [],
+  "isFixRequest": false,
+  "existing_features": [
+    {
+      "id": "feature-replace-the-phone-whatsapp-number-6374350379-with-6374942194-across-the-frontend-including-the-shared-phone-number-selector-list-and-any-direct-tel-links-in-the-contact-section-ensuring-both-the-underlying-dial-wa-me-number-and-the-human-formatted-display-text-are-updated-consistently-country-code-91",
+      "title": "Replace the phone/WhatsApp number 6374350379 with 6374942194 across the frontend, including the shared phone number selector list and any direct tel: links in the Contact section, ensuring both the underlying dial/wa.me number and the human-formatted display text are updated consistently (country code +91).",
+      "reqIds": [
+        "REQ-1"
+      ],
+      "version": 1
+    }
+  ],
+  "new_feature_requests": [
+    {
+      "id": "AR-1",
+      "summary": "Update phone/WhatsApp number from 6374350379 to 6374942194",
+      "reqIds": [],
+      "status": "pending"
+    }
+  ],
+  "projectName": "Update WhatsApp/phone number 6374350379 to 6374942194",
+  "clarification_mode": "instant",
+  "clarification_rounds": 0
+}

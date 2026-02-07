@@ -1,0 +1,28 @@
+{
+  "kind": "implementation_plan",
+  "version": "1.0",
+  "title": "Update WhatsApp/phone number to 6374942194 across frontend",
+  "requirements": [
+    {
+      "id": "REQ-1",
+      "summary": "Replace all occurrences of phone/WhatsApp number 6374350379 with 6374942194 in shared selector and Contact section tel links, keeping dialing/wa.me values and displayed formatting consistent with +91.",
+      "acceptanceCriteria": [
+        "In PhoneNumberSelector, the entry that previously used +916374350379 / '+91 6374 350 379' is updated to use +916374942194 / '+91 6374 942 194' (or equivalent correct spacing), and selecting it opens the correct tel: or https://wa.me/ link.",
+        "In ContactSection, the second phone <a href=\"tel:...\"> link is updated from tel:+916374350379 to tel:+916374942194 and the visible text matches the new number.",
+        "No remaining occurrences of '6374350379' exist in frontend source files after the change."
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/components/PhoneNumberSelector.tsx",
+          "operation": "modify",
+          "description": "Update the PHONE_NUMBERS list entry for the second number from +916374350379 / '+91 6374 350 379' to +916374942194 / '+91 6374 942 194', ensuring the selector continues to produce correct tel: and wa.me links based on the updated value."
+        },
+        {
+          "path": "frontend/src/components/sections/ContactSection.tsx",
+          "operation": "modify",
+          "description": "Update the second phone link in the Contact section from href tel:+916374350379 and display '+91 6374 350 379' to tel:+916374942194 and display '+91 6374 942 194', keeping formatting consistent with other numbers. After changes, verify no remaining '6374350379' literals exist anywhere under frontend/ source files."
+        }
+      ]
+    }
+  ]
+}

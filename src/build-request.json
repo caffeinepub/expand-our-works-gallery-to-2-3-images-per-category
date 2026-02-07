@@ -1,0 +1,38 @@
+{
+  "kind": "build_request",
+  "title": "Update WhatsApp/phone number 6374350379 to 6374942194",
+  "priority": "normal",
+  "requirements": [
+    {
+      "id": "REQ-1",
+      "text": "Replace the phone/WhatsApp number 6374350379 with 6374942194 across the frontend, including the shared phone number selector list and any direct tel: links in the Contact section, ensuring both the underlying dial/wa.me number and the human-formatted display text are updated consistently (country code +91).",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-3"
+        ],
+        "quotes": [
+          "change 6374350379 number to 6374942194 number"
+        ]
+      },
+      "acceptanceCriteria": [
+        "In PhoneNumberSelector, the entry that previously used +916374350379 / '+91 6374 350 379' is updated to use +916374942194 / '+91 6374 942 194' (or equivalent correct spacing), and selecting it opens the correct tel: or https://wa.me/ link.",
+        "In ContactSection, the second phone <a href=\"tel:...\"> link is updated from tel:+916374350379 to tel:+916374942194 and the visible text matches the new number.",
+        "No remaining occurrences of '6374350379' exist in frontend source files after the change."
+      ]
+    }
+  ],
+  "constraints": [
+    "Do not edit files under frontend/src/components/ui (read-only).",
+    "Do not modify any files listed in frontend immutablePaths (read-only hooks and main entry).",
+    "Backend changes are not required for this update."
+  ],
+  "nonGoals": [
+    "Changing any other phone numbers besides 6374350379.",
+    "Changing WhatsApp button styling, layout, or adding new contact channels."
+  ],
+  "imageRequirements": {
+    "required": [],
+    "edits": []
+  }
+}

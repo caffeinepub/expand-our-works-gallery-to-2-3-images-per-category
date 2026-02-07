@@ -1,0 +1,18 @@
+{
+  "frontend/src/App.tsx": "Main application component that renders the single-page layout with all sections (hero, about, services, why choose us, contact) plus header, footer, and floating WhatsApp button; Our Works section has been removed.",
+  "frontend/src/components/SiteHeader.tsx": "Fixed header component with logo, responsive navigation menu (Home, About, Services, Contact), and call-to-action button that opens the phone number selector dialog; Our Works navigation link has been removed.",
+  "frontend/src/components/sections/HomeHero.tsx": "Hero section with gradient navy background, main heading, description, and three CTAs (Call, WhatsApp, Location) that open the phone selector dialog or Google Maps.",
+  "frontend/src/components/sections/AboutSection.tsx": "About section with company description and four feature cards (Quality Workmanship, Customized Solutions, Customer Satisfaction, Trusted Partner) on light gray background.",
+  "frontend/src/components/sections/ServicesSection.tsx": "Services section displaying three service categories in a responsive grid with \"Get a Free Quote\" CTA button, plus a new WhatsApp reference-images CTA at the bottom with text \"If you need any reference images\" and a WhatsApp button that opens the phone number selector with a pre-filled message.",
+  "frontend/src/components/sections/OurWorksSection.tsx": "Gallery section with category filter buttons and responsive grid displaying work images with unique per-image titles and one-line descriptions; includes category-level metadata block shown when a specific category is selected and \"Start Your Project\" button that scrolls to Contact section.",
+  "frontend/src/components/sections/WhyChooseUsSection.tsx": "Dark navy section showcasing six reasons to choose VI Digital Branding with icons, plus Call and WhatsApp CTAs that open the phone number selector dialog.",
+  "frontend/src/components/sections/ContactSection.tsx": "Contact section with \"Contact Us\" heading (focusable), validated form that opens number-selection dialog on submit, sends enquiry via WhatsApp, and displays contact information with clickable location link; second phone number updated to +91 6374 942 194.",
+  "frontend/src/components/SiteFooter.tsx": "Footer component with company description, copyright notice, and caffeine.ai attribution link.",
+  "frontend/src/components/FloatingWhatsAppButton.tsx": "Fixed floating WhatsApp button positioned at bottom-right that opens the phone number selector dialog when clicked.",
+  "frontend/src/index.css": "Global styles with Poppins font import, OKLCH color system defining navy palette and brand green colors, smooth scrolling behavior with header offset.",
+  "frontend/tailwind.config.js": "Tailwind configuration extending theme with Poppins font family, custom navy and brand-green color tokens mapped to CSS variables.",
+  "frontend/index.html": "HTML entry point with updated title, meta description, and meta keywords for SEO.",
+  "frontend/src/hooks/useQueries.ts": "Empty placeholder file as no backend queries are needed for this static marketing site.",
+  "frontend/src/components/PhoneNumberSelector.tsx": "Reusable dialog component that displays two phone numbers for user selection, supporting both call and WhatsApp actions with optional pre-filled message text, selection callback, and optional number labels; second number updated to +91 6374 942 194.",
+  "frontend/src/utils/scrollToSection.ts": "Reusable utility function that smoothly scrolls to a target element with fixed header offset handling and resolves when scrolling completes using IntersectionObserver."
+}
